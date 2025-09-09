@@ -9,7 +9,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/hubspot-account-info-typescript.git
+git clone git@github.com:whohags/hubspot-account-info-typescript.git
 cd hubspot-account-info-typescript
 ./scripts/bootstrap
 ./scripts/build

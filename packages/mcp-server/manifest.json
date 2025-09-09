@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/hubspot-account-info-typescript.git"
+    "url": "git+https://github.com/whohags/hubspot-account-info-typescript.git"
   },
-  "homepage": "https://github.com/stainless-sdks/hubspot-account-info-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/whohags/hubspot-account-info-typescript/tree/main/packages/mcp-server#readme",
   "server": {
     "type": "node",
     "entry_point": "${__dirname}/index.js",
