@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "hubspot-account-info-mcp/*": ["dist/src/*"],
-      "hubspot-account-info-mcp": ["dist/src/index.ts"]
+      "hubspot-account-info-mcp/*": ["./dist/src/*"],
+      "hubspot-account-info-mcp": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

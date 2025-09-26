@@ -7,10 +7,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "paths": {
-      "hubspot-account-info/*": ["src/*"],
-      "hubspot-account-info": ["src/index.ts"]
+      "hubspot-account-info/*": ["./src/*"],
+      "hubspot-account-info": ["./src/index.ts"]
     },
     "noEmit": true,
 

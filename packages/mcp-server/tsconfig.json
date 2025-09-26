@@ -7,10 +7,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "paths": {
-      "hubspot-account-info-mcp/*": ["src/*"],
-      "hubspot-account-info-mcp": ["src/index.ts"]
+      "hubspot-account-info-mcp/*": ["./src/*"],
+      "hubspot-account-info-mcp": ["./src/index.ts"]
     },
     "noEmit": true,
 
