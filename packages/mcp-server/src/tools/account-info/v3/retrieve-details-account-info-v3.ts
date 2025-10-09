@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export const tool: Tool = {
   name: 'retrieve_details_account_info_v3',
   description:
-    "When using this tool, always use the `jq_filter` parameter to reduce the response size and improve performance.\n\nOnly omit if you're sure you don't need the data.\n\nGet account details\n\n# Response Schema\n```json\n{\n  type: 'object',\n  properties: {\n    companyCurrency: {\n      type: 'string'\n    },\n    portalId: {\n      type: 'integer'\n    },\n    timeZone: {\n      type: 'string'\n    }\n  }\n}\n```",
+    "When using this tool, always use the `jq_filter` parameter to reduce the response size and improve performance.\n\nOnly omit if you're sure you don't need the data.\n\nGet account details\n\n# Response Schema\n```json\n{\n  $ref: '#/$defs/v3_retrieve_details_response',\n  $defs: {\n    v3_retrieve_details_response: {\n      type: 'object',\n      properties: {\n        companyCurrency: {\n          type: 'string'\n        },\n        portalId: {\n          type: 'integer'\n        },\n        timeZone: {\n          type: 'string'\n        }\n      }\n    }\n  }\n}\n```",
   inputSchema: {
     type: 'object',
     properties: {
