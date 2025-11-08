@@ -1,5 +1,5 @@
 {
-  "dxt_version": "0.1",
+  "dxt_version": "0.2",
   "name": "hubspot-account-info-mcp",
   "version": "0.0.1",
   "description": "The official MCP Server for the Hubspot Account Info API",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/hubspot-account-info-typescript.git"
+    "url": "git+https://github.com/whohags/hubspot-account-info-typescript.git"
   },
-  "homepage": "https://github.com/stainless-sdks/hubspot-account-info-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/whohags/hubspot-account-info-typescript/tree/main/packages/mcp-server#readme",
   "server": {
     "type": "node",
-    "entry_point": "${__dirname}/index.js",
+    "entry_point": "index.js",
     "mcp_config": {
       "command": "node",
       "args": ["${__dirname}/index.js"],
@@ -30,6 +30,7 @@
       "type": "string"
     }
   },
+  "tools": [],
   "tools_generated": true,
   "compatibility": {
     "runtimes": {

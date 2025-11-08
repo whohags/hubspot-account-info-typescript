@@ -1,12 +1,12 @@
 {
   "name": "hubspot-account-info",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The official TypeScript library for the Hubspot Account Info API",
   "author": "Hubspot Account Info <>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
-  "repository": "github:stainless-sdks/hubspot-account-info-typescript",
+  "repository": "github:whohags/hubspot-account-info-typescript",
   "license": "Apache-2.0",
   "packageManager": "yarn@1.22.22",
   "files": [

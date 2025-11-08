@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export const tool: Tool = {
   name: 'retrieve_daily_v3_account_info_api_usage',
   description:
-    "When using this tool, always use the `jq_filter` parameter to reduce the response size and improve performance.\n\nOnly omit if you're sure you don't need the data.\n\nGet daily API usage\n\n# Response Schema\n```json\n{\n  type: 'object',\n  properties: {\n    results: {\n      type: 'array',\n      items: {\n        type: 'object',\n        properties: {\n          currentUsage: {\n            type: 'integer'\n          },\n          name: {\n            type: 'string'\n          },\n          usageLimit: {\n            type: 'integer'\n          }\n        }\n      }\n    }\n  }\n}\n```",
+    "When using this tool, always use the `jq_filter` parameter to reduce the response size and improve performance.\n\nOnly omit if you're sure you don't need the data.\n\nGet daily API usage\n\n# Response Schema\n```json\n{\n  $ref: '#/$defs/api_usage_retrieve_daily_response',\n  $defs: {\n    api_usage_retrieve_daily_response: {\n      type: 'object',\n      properties: {\n        results: {\n          type: 'array',\n          items: {\n            type: 'object',\n            properties: {\n              currentUsage: {\n                type: 'integer'\n              },\n              name: {\n                type: 'string'\n              },\n              usageLimit: {\n                type: 'integer'\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n```",
   inputSchema: {
     type: 'object',
     properties: {
